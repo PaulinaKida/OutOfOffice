@@ -9,7 +9,7 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 ReactDOM.render(
   <React.StrictMode>
       <ParallaxProvider>
-      <Router>
+      <Router basename="/OutOfOffice/">
         <App />
       </Router>
       </ParallaxProvider>
