@@ -17,10 +17,10 @@ const Menu = function() {
                             <span></span>
                         </label>
                         <ul className="header__nav">
-                            <li className="nav__element"><a href="/#omnie" className="nav__link">poznaj nas</a></li>
-                            <li className="nav__element"><a href="/#oferta" className="nav__link">oferta</a></li>
-                            <li className="nav__element"><a href="/#dotyczasowawspolpraca" className="nav__link">współpraca</a></li>
-                            <li className="nav__element"><a href="/#contact" className="nav__link">kontakt</a></li>
+                            <li className="nav__element"><a href="#omnie" className="nav__link">poznaj nas</a></li>
+                            <li className="nav__element"><a href="#oferta" className="nav__link">oferta</a></li>
+                            <li className="nav__element"><a href="#dotyczasowawspolpraca" className="nav__link">współpraca</a></li>
+                            <li className="nav__element"><a href="#contact" className="nav__link">kontakt</a></li>
                         </ul>
                     </nav>
                 </div>
