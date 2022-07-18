@@ -1,0 +1,38 @@
+.footer {
+  &__container {
+    display: block;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    background: url("../../assets/images/ooo.png");
+    position: center;
+    background-size: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 25px 15px 25px;
+    margin: 15px 25px 15px 25px;
+  }
+
+  .social {
+    text-align: center;
+    font-size: 30px;
+    a {
+      margin-top: 20px;
+      display: inline-block;
+      padding: 10px;
+      color: $color-grey;
+    }
+  }
+
+  text-align: center;
+  &__button {
+    a {
+      display: inline-block;
+      padding: 10px 30px;
+      color: $color-black;
+      border: 1px solid $color-liver-dogs;
+      margin-bottom: 50px;
+      margin-top: 25px;
+    }
+  }
+}

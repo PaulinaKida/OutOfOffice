@@ -1,0 +1,104 @@
+.offer {
+  padding: 80px 100px 0;
+  justify-content: center;
+
+  &__container {
+    flex-flow: column wrap;
+  }
+
+  &__single {
+    background-color: $color-white;
+    margin-bottom: 37px;
+    border-radius: 5px;
+    position: relative;
+    text-align: center;
+    height: 50vh;
+
+    &__szkolenia {
+
+      .offer__text {
+        width: 20vw;
+        height: 50vh;
+        top: 7vh;
+        position: absolute;
+        right: 30vh;
+        background-color: $color-kombu-green;
+        color: $color-white;
+        padding: 50px 0 40px;
+        p {
+          text-align: justify;
+          width: 70%;
+          margin: 30px auto;
+          font-size: 1.15rem;
+        }
+      }
+
+      img {
+        width: 35vw;
+        top: 0;
+        position: absolute;
+        left: 20vw;
+      }
+
+    }
+
+    &__outdoor {
+      height: 50vh;
+      margin-top: 30px;
+      .offer__text {
+        width: 20vw;
+        height: 50vh;
+        top: 7vh;
+        position: absolute;
+        left: 30vh;
+        background-color: $color-kombu-green;
+        color: $color-white;
+        padding: 50px 0 40px;
+        z-index: 10;
+        p {
+          text-align: justify;
+          width: 70%;
+          margin: 30px auto;
+          font-size: 1.15rem;
+        }
+      }
+
+      img {
+        height: 40vw;
+        top: 3vh;
+        position: absolute;
+        right: 20vw;
+        z-index: 1;
+      }
+
+    }
+
+    &__it {
+      margin-top: 35vh;
+      .offer__text {
+        width: 20vw;
+        height: 50vh;
+        top: 7vh;
+        position: absolute;
+        right: 30vh;
+        background-color: $color-kombu-green;
+        color: $color-white;
+        padding: 50px 0 40px;
+        p {
+          text-align: justify;
+          width: 70%;
+          margin: 30px auto;
+          font-size: 1.15rem;
+        }
+      }
+
+      img {
+        width: 35vw;
+        top: 0;
+        position: absolute;
+        left: 15vw;
+      }
+
+    }
+  }
+}

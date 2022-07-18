@@ -1,0 +1,41 @@
+.collaboration {
+  height: 100vh;
+  background-image: url("../../assets/images/7.jpg");
+  &__container {
+    display: block;
+    width: 100%;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    background-size: 30%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 15px 25px 15px 25px;
+    margin: 15px 65px 15px 25px;
+    text-align: left;
+    color: $color-white;
+    h2 {
+      margin-top: 15vh;
+      font-weight: 500;
+      font-size: 7rem;
+      padding-left: 5vw;
+      line-height: 10rem;
+    }
+    .offer__text {
+      width: 20vw;
+      height: 50vh;
+      position: absolute;
+      top: 35vh;
+      right: 15vw;
+      background-color: $color-kombu-green;
+      color: $color-white;
+      padding: 50px 0 40px;
+      p {
+        text-align: justify;
+        width: 70%;
+        margin: 30px auto;
+        font-size: 1.15rem;
+      }
+    }
+  }
+}
